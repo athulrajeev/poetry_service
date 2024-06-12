@@ -24,7 +24,6 @@ public class FirebaseAuthConfig {
                 .build();
 
         var firebaseApp = FirebaseApp.initializeApp(options);
-
         return FirebaseAuth.getInstance(firebaseApp);
     }
 }
